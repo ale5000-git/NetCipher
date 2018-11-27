@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 dependencies {
     compile "cz.msebera.android:httpclient:4.4.1.2"
-    compile project(':libnetcipher', configuration: 'default')
+    compile project(path: ':libnetcipher', configuration: 'default')
 }
 
 android {
