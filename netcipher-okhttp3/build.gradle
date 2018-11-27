@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 dependencies {
-    implementation 'com.squareup.okhttp3:okhttp:3.2.0'
+    api 'com.squareup.okhttp3:okhttp:3.2.0'
     implementation project(':libnetcipher')
 }
 
