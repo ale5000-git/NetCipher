@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
-    implementation project(':libnetcipher')
+    compile project(path: ':libnetcipher', configuration: 'default')
 }
 
 android {

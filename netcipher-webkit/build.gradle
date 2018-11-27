@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 dependencies {
-    implementation project(':libnetcipher')
+    compile project(path: ':libnetcipher', configuration: 'default')
 }
 
 android {
