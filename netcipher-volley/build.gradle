@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 dependencies {
     compile 'com.android.volley:volley:1.1.1'
-    compile project(':libnetcipher')
+    compile project(path: ':libnetcipher', configuration: 'default')
 }
 
 android {
