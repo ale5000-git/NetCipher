@@ -544,7 +544,7 @@ public class WebkitProxy {
      * Class webViewCoreClass = Class.forName("android.net.Proxy");
      * <p>
      * Class proxyPropertiesClass = Class.forName("android.net.ProxyProperties");
-     * if (webViewCoreClass != null && proxyPropertiesClass != null)
+     * if (webViewCoreClass != null &amp;&amp; proxyPropertiesClass != null)
      * {
      * for (Method method : webViewCoreClass.getDeclaredMethods())
      * {
@@ -556,7 +556,7 @@ public class WebkitProxy {
      * Constructor c = proxyPropertiesClass.getConstructor(String.class, Integer.TYPE,
      * String.class);
      * <p>
-     * if (m != null && c != null)
+     * if (m != null &amp;&amp; c != null)
      * {
      * m.setAccessible(true);
      * c.setAccessible(true);
@@ -591,7 +591,7 @@ public class WebkitProxy {
      * Class webViewCoreClass = Class.forName("android.net.Proxy");
      * <p>
      * Class proxyPropertiesClass = Class.forName("android.net.ProxyProperties");
-     * if (webViewCoreClass != null && proxyPropertiesClass != null)
+     * if (webViewCoreClass != null &amp;&amp; proxyPropertiesClass != null)
      * {
      * for (Method method : webViewCoreClass.getDeclaredMethods())
      * {
