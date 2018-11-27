@@ -62,6 +62,7 @@ script:
   - sleep 5
   # now run the tests that require a device/emulator
   - ./gradlew connectedCheck -PdisablePreDex
+  - cat /home/travis/build/ale5000-git/NetCipher/libnetcipher/build/reports/androidTests/connected/index.html
 
 after_failure:
   - find * -name lint-results.xml | xargs cat
